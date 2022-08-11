@@ -16,10 +16,6 @@ async function setupNodeEvents(on, config) {
 
 
 module.exports = defineConfig({
-    downloadsFolder: 'downloads',
-    env: {
-        username: 'atf_user'
-    },
     video: false,
     chromeWebSecurity: false,
     e2e: {
